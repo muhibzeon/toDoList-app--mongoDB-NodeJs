@@ -33,7 +33,11 @@ const item3= new Item({
   name:"<-- hit this cheeckbox to delete an item"
 });
 
-const defaultItems= [item1, item2, item3];
+const item4= new Item({
+  name:"Add '/{AnyName}' after the browser link to create new list"
+});
+
+const defaultItems= [item1, item2, item3, item4];
 
 const listSchema={
   name:String,
